@@ -189,44 +189,36 @@ header{
 
 }
 
-/* Cart */
-
-.cart-icon{
-
+.cart{
     position:relative;
-
-    font-size:26px;
-
+    display:flex;
+    align-items:center;
+    justify-content:center;
     cursor:pointer;
-
+    font-size:24px;
+    color:#fff;
+    transition:.3s;
 }
 
-.cart-badge{
+.cart:hover{
+    color:#06b6d4;
+    transform:scale(1.1);
+}
 
+.cart-count{
     position:absolute;
-
     top:-8px;
-
     right:-10px;
-
-    background:red;
-
-    color:white;
-
     width:20px;
-
     height:20px;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
     border-radius:50%;
-
+    background:#ff3b30;
+    color:#fff;
     font-size:12px;
-
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 /* Mobile Button */
