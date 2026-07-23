@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Voltify  E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#home"><span>Voltify</span></a>
+            </div>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">About Us</a></li>
+                    <li><a href="#products" class="nav-link" data-section="products">Products</a></li>
+                    <li><a href="#offers" class="nav-link" data-section="offers">Offers</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search products..." id="searchInput" />
+                  <button type="button" id="searchBtn">??</button>
+                </div>
+                <a href="#" class="cart-icon" id="cartIcon">??<span class="cart-badge" id="cartCount">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== HOME SECTION ===== -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Next-Gen Electronics</h1>
+                    <p>Smartphones, laptops, wearables & more up to 40% off</p>
+                    <a href="#products" class="cta-button">Explore Devices</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=600&h=300&fit=crop&auto=format" alt="Hero banner" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT US SECTION ===== -->
+        <section id="about" class="section active">
+            <h2>About Voltify</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to <strong>Voltify</strong> your premier destination for cutting-edge electronics and gadgets. Founded in 2020, we are passionate about bringing the latest technology to your doorstep at the most competitive prices.</p>
+                    <p>Our mission is to provide high-quality products with exceptional customer service. From smartphones and laptops to smartwatches and gaming consoles, we curate the best from leading brands.</p>
+                    <p><strong>Why choose us?</strong></p>
+                    <ul class="about-features">
+                        <li>100% Authentic Products</li>
+                        <li>Fast & Free Delivery</li>
+                        <li>24/7 Customer Support</li>
+                        <li>Easy Returns & Exchanges</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=500&h=300&fit=crop&auto=format" alt="About ElectroHub" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PRODUCTS SECTION ===== -->
+<section id="products" class="section active">
+    <h2>Our Products</h2>
+
+    <div class="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <div class="product-badge">New</div>
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500" alt="iPhone">
+            <div class="product-info">
+                <h3>Premium Smartphone</h3>
+                <p>6.7" OLED Display, 256GB Storage, 48MP Camera</p>
+
+                <div class="price-box">
+                    <span class="old-price">89,999</span>
+                    <span class="price">74,999</span>
+                </div>
+
+                <div class="rating">
+                   245
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <div class="product-badge">Best Seller</div>
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Laptop">
+            <div class="product-info">
+                <h3>Gaming Laptop</h3>
+                <p>Intel i7, RTX Graphics, 16GB RAM, 1TB SSD</p>
+
+                <div class="price-box">
+                    <span class="old-price">1,09,999</span>
+                    <span class="price">89,999</span>
+                </div>
+
+                <div class="rating">
+                    512
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <div class="product-badge">Hot</div>
+            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500" alt="Headphones">
+            <div class="product-info">
+                <h3>Wireless Headphones</h3>
+                <p>Noise Cancellation, 30H Battery, Bluetooth 5.3</p>
+
+                <div class="price-box">
+                    <span class="old-price">19,999</span>
+                    <span class="price">13,999</span>
+                </div>
+
+                <div class="rating">
+                    186
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <div class="product-badge">Trending</div>
+            <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500" alt="Smart Watch">
+            <div class="product-info">
+                <h3>Smart Watch</h3>
+                <p>AMOLED Display, GPS, Heart Rate Monitor</p>
+
+                <div class="price-box">
+                    <span class="old-price">24,999</span>
+                    <span class="price">17,999</span>
+                </div>
+
+                <div class="rating">
+                    143
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <div class="product-badge">Sale</div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVo00nMqDBmUqaHj-mR-mGhx9JjJmUco5UjhjmFufnaw&s=10">
+            <div class="product-info">
+                <h3>DSLR Camera</h3>
+                <p>24MP, 4K Video, WiFi Connectivity</p>
+
+                <div class="price-box">
+                    <span class="old-price">79,999</span>
+                    <span class="price">64,999</span>
+                </div>
+
+                <div class="rating">
+                    92
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <div class="product-badge">Latest</div>
+            <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500" alt="Tablet">
+            <div class="product-info">
+                <h3>Android Tablet</h3>
+                <p>11-inch Display , 128GB Storage, Stylus Support</p>
+
+                <div class="price-box">
+                    <span class="old-price">44,999</span>
+                    <span class="price">35,999</span>
+                </div>
+
+                <div class="rating">
+                    204
+                </div>
+
+                <div class="product-buttons">
+                    <button class="buy-btn">Buy Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- ===== OFFERS SECTION - Mega Offers Style ===== -->
+        <section id="offers" class="section active">
+            <h2>Mega Offers</h2>
+            
+            <!-- Offer Categories Tabs -->
+            <div class="offer-tabs">
+                <button class="tab-btn active" data-tab="regular">Regular</button>
+                <button class="tab-btn" data-tab="festival">Festival</button>
+                <button class="tab-btn" data-tab="combo">Combo</button>
+            </div>
+
+            <!-- Regular Offers -->
+            <div class="offer-tab-content active" id="regular">
+                <div class="offer-grid">
+                    <div class="offer-card">
+                        <div class="offer-badge">Best Deal</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQQT43ccipD0Urq2O4hHsIEslgNhzROdgAQ8R22Fymg&s=10">
+                        <h3>Smartphone Sale</h3>
+                        <p>Up to 40% OFF on all smartphones</p>
+                        <div class="offer-details">
+                            <span>6 Months EMI</span>
+                            <span>Free Case</span>
+                            <span>1 Year Warranty</span>
+                        </div>
+                        <div class="offer-savings">Save 15,000</div>
+                    </div>
+
+                    <div class="offer-card">
+                        <div class="offer-badge">Flash Deal</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhaKSemO24-ZZ6viyIfJret2z25XPBymNqvwDEYiCxPw&s=10">
+                        <h3>Laptop Festival</h3>
+                        <p>Flat 35% OFF on select laptops</p>
+                        <div class="offer-details">
+                            <span>Free Mouse</span>
+                            <span>2 Year Warranty</span>
+                            <span>Free Delivery</span>
+                        </div>
+                        <div class="offer-savings">Save 25,000</div>
+                    </div>
+
+                    <div class="offer-card">
+                        <div class="offer-badge">Mega Deal</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdwpRAYqKUOPPiPvVvExWKKc9w4YCEyIlGRrUiNWNvEw&s=10">
+                        <h3>Audio Zone</h3>
+                        <p>Buy 2 Get 1 FREE on headphones</p>
+                        <div class="offer-details">
+                            <span>Premium Quality</span>
+                            <span>Noise Cancelling</span>
+                            <span>30h Battery</span>
+                        </div>
+                        <div class="offer-savings">Save 5,000</div>
+                    </div>
+
+                    <div class="offer-card">
+                        <div class="offer-badge">Hot Deal</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkRsRFigLw5DEjCReFrcu-P0SmN8zL3VXjrVHhSA0Gg&s">
+                        <h3>Wearable Tech</h3>
+                        <p>Up to 50% OFF on smartwatches</p>
+                        <div class="offer-details">
+                            <span>GPS Enabled</span>
+                            <span>Heart Rate Monitor</span>
+                            <span>Free Strap</span>
+                        </div>
+                        <div class="offer-savings">Save 8,000</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Festival Offers -->
+            <div class="offer-tab-content" id="festival">
+                <div class="offer-grid">
+                    <div class="offer-card festival-card">
+                        <div class="offer-badge">Diwali Special</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79y2D8lZZG7GpLy1IViFn0hxcVejd6OHqpKxaLhrn4A&s=10">
+                        <h3>Diwali Mega Sale</h3>
+                        <p>Flat <strong>50% OFF</strong> on electronics</p>
+                        <div class="offer-details">
+                            <span>Kids Clothing Collection</span>
+                            <span>Toys & Accessories</span>
+                            <span>Free Gift Wrapping</span>
+                        </div>
+                        <div class="offer-savings">Save 2,000</div>
+                    </div>
+
+                    <div class="offer-card festival-card">
+                        <div class="offer-badge">Christmas Offer</div>
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt8TJ5TFh3Qf1novvL5Qigbf273lya8TGt7lJL_VvbEA&s=10">
+                        <h3>Christmas Special</h3>
+                        <p>Buy 2 Get 1 FREE on all items</p>
+                        <div class="offer-details">
+                            <span>Free Gift Packing</span>
+                            <span>Free Delivery</span>
+                            <span>Limited Time Offer</span>
+                        </div>
+                        <div class="offer-savings">Save 3,000</div>
+                    </div>
+
+                    <div class="offer-card festival-card">
+                        <div class="offer-badge">Holi Festival</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZkd_nU8Qf8jQUxU3UDalf8_4ei6NdpoQG4QTt95CvQ&s=10">
+                        <h3>Holi Special</h3>
+                        <p>Up to <strong>60% OFF</strong> on shoes & toys</p>
+                        <div class="offer-details">
+                            <span>Surprise Gifts</span>
+                            <span>Free Colors</span>
+                            <span>Mega Savings</span>
+                        </div>
+                        <div class="offer-savings">Save 4,000</div>
+                    </div>
+
+                    <div class="offer-card festival-card">
+                        <div class="offer-badge">New Year</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IkE0Q2ioGRGhCIFOx4MmYHFM5BwUxLYdO_FXc2m5UA&s=10">
+                        <h3>New Year Blast</h3>
+                        <p>Flat 45% OFF + Extra 10% on all</p>
+                        <div class="offer-details">
+                            <span>Free Party Decor</span>
+                            <span>1 Year Subscription</span>
+                            <span>Free Delivery</span>
+                        </div>
+                        <div class="offer-savings">Save 6,000</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Combo Offers -->
+            <div class="offer-tab-content" id="combo">
+                <div class="offer-grid">
+                    <div class="offer-card combo-card">
+                        <div class="offer-badge">Smart Combo</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuHxYSwSDdHgNBSENBzyQZc2ZyIvBACy3Y8sCAxIqofw&s=10">
+                        <h3>Phone + Headphones</h3>
+                        <p>Save 25% when you buy together</p>
+                        <div class="offer-details">
+                            <span>Premium Phone</span>
+                            <span>Wireless Headphones</span>
+                            <span>Free Case</span>
+                        </div>
+                        <div class="offer-savings">Save 12,000</div>
+                    </div>
+
+                    <div class="offer-card combo-card">
+                        <div class="offer-badge">Laptop Combo</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpO-bS3s-QId86tMBS87jkPEL9GVtC_OaT8cptZcYGTg&s=10">
+                        <h3>Laptop + Accessories</h3>
+                        <p>Save 30% on complete setup</p>
+                        <div class="offer-details">
+                            <span>Laptop Bag</span>
+                            <span>Wireless Mouse</span>
+                            <span>USB Hub</span>
+                        </div>
+                        <div class="offer-savings">Save 8,000</div>
+                    </div>
+
+                    <div class="offer-card combo-card">
+                        <div class="offer-badge">Gaming Combo</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtnxEhpvmLTMy0PCU3vdxaPyj3WvgBt8GjfIRtX1h_bA&s=10">
+                        <h3>Gaming Bundle</h3>
+                        <p>Console + Keyboard + Mouse</p>
+                        <div class="offer-details">
+                            <span>Gaming Console</span>
+                            <span>Mechanical Keyboard</span>
+                            <span>Gaming Mouse</span>
+                        </div>
+                        <div class="offer-savings">Save 15,000</div>
+                    </div>
+
+                    <div class="offer-card combo-card">
+                        <div class="offer-badge">Home Combo</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXc_u85kK0ZLZ-ZvGBYjtsfK4Bxol79PTajj8GvspQrw&s=10">
+                        <h3>Smart Home Bundle</h3>
+                        <p>Smart speaker + Lights + Camera</p>
+                        <div class="offer-details">
+                            <span> Smart Speaker</span>
+                            <span> Smart Bulbs</span>
+                            <span> Security Camera</span>
+                        </div>
+                        <div class="offer-savings">Save 6,000</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="section active">
+            <h2>Create Account</h2>
+            <div class="contact-container">
+                <!-- Create Account Form -->
+                <div class="form-box" id="signupBox">
+                    <h3>Create Account</h3>
+                    <form id="signupForm">
+                        <input type="text" placeholder="Full Name" required />
+                        <input type="email" placeholder="Email" required />
+                        <input type="password" placeholder="Password" required />
+                        <input type="password" placeholder="Confirm Password" required />
+                        <button type="submit">Create Account</button>
+                    </form>
+                    <p class="toggle-text">
+                        Already have an account? 
+                        <a href="#" id="showLogin">Login now</a>
+                    </p>
+                </div>
+
+                <!-- Login Form -->
+                <div class="form-box" id="loginBox" style="display: none;">
+                    <h3>Login</h3>
+                    <form id="loginForm">
+                        <input type="email" placeholder="Email" required />
+                        <input type="password" placeholder="Password" required />
+                        <button type="submit">Login</button>
+                    </form>
+                    <p class="toggle-text">
+                        Don't have an account? 
+                        <a href="#" id="showSignup">Create Account</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CART OVERLAY ===== -->
+        <div id="cartOverlay" class="cart-overlay">
+            <div class="cart-panel">
+                <div class="cart-header">
+                    <h2>Your Cart</h2>
+                    <button id="closeCart" class="close-cart">?</button>
+                </div>
+                <div id="cartItems"></div>
+                <div id="cartTotal"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER (Fixed) ===== -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Voltify</h4>
+                <p>Premium electronics for every need.</p>
+                <p>&copy; 2026 Voltify</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>aadhyapanchal07@gmail.com</li>
+                    <li>+91 7862830984</li>
+                    <li>Ahmedabad</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Built with for Frontend Internship.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
